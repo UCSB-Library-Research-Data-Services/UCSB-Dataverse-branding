@@ -62,3 +62,14 @@ a:hover {
 #dataverseHeader {
     margin: 10px auto;
 }
+
+/* Main content styles */
+
+#dataverseHeader .dataverseHeaderName span.label.label-unpublished {
+    color: #3d4952;
+}
+
+span.label-warning {
+    background-color: #febc11;
+}
+
