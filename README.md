@@ -42,4 +42,12 @@ The file needs to be added to the Dataverse configuration by running the followi
 curl -X PUT -d '/var/www/html/UCSB-Dataverse-branding/assets/css/custom-stylesheet.css' http://localhost:8080/api/admin/settings/:StyleCustomizationFile
 ```
 
+### Custom Footer
+
+To set the custom footer, copy the `ucsb-dataverse-footer.html` file to the `/var/www/html/` directory, and run the following command:
+
+```bash
+curl -X PUT -d '/var/www/html/UCSB-Dataverse-branding/ucsb-dataverse-footer.html' http://localhost:8080/api/admin/settings/:FooterCustomizationFile
+```
+
 
