@@ -1,3 +1,13 @@
+/* Global styles changed to match the UCSB brand */
+
+a {
+    color: #003660;
+}
+
+a:hover {
+    color: #003660;
+    text-decoration: underline;
+}
 /* Custom navbar styles */
 #navbarFixed .navbar-brand.custom-logo {
     padding: 0;
