@@ -63,6 +63,10 @@ a:hover {
     margin: 10px auto;
 }
 
+#breadCrumbPanel {
+    margin-top: 2em;
+}
+
 /* Main content styles */
 
 #dataverseHeader .dataverseHeaderName span.label.label-unpublished {
