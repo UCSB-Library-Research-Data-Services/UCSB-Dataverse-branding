@@ -1,0 +1,8 @@
+/* Custom navbar styles */
+#navbarFixed .navbar-brand.custom-logo {
+    padding: 0;
+    width: auto;
+    height: 40px;
+    padding-top: 1rem;
+}
+
