@@ -99,19 +99,11 @@ span.label-warning {
 
 footer {
     background-color: #003660;
-    /* border-top: 0;
-    margin-top: 0px;
-    padding-top: 35px;
-    padding-bottom: 36px;
-    bottom: -130px; */
     position: relative;
     text-align: left;
     height: auto;
     color: #ffffff !important;
-}
-
-.region-footer {
-    padding: 0 15px;
+    bottom: -130px;
 }
 
 .field--name-field-blades {
@@ -151,6 +143,7 @@ footer {
 
 .footer .contact-info {
     line-height: 1.5;
+    padding-bottom: 15px;
 }
 
 .footer-bottom {
@@ -161,6 +154,12 @@ footer {
     font-size: 1.2rem;
     padding: 16px 0 48px 0;
     width: 100%;
+}
+
+@media (min-width: 992px) {
+    .footer-bottom {
+        padding: 16px 20px 48px 20px;
+    }
 }
 
 .footer-bottom div, .footer-bottom p, .footer-bottom a {
