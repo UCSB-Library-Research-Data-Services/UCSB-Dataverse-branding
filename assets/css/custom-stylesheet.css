@@ -1,3 +1,21 @@
+/* Global styles to ensure footer is visible */
+html, body {
+    height: 100%;
+}
+#content.container {
+    min-height: calc(100% - 210px);
+    margin-bottom: -142px; 
+}
+#content.container:after {
+    content: "";
+    display: block;
+}
+
+.footer div, .footer p, .footer h4, .footer h5, .footer h6, .footer a {
+    border-color: #fff;
+    color: #fff !important;
+}
+
 /* Global styles changed to match the UCSB brand */
 
 a {
@@ -77,3 +95,76 @@ span.label-warning {
     background-color: #febc11;
 }
 
+/* Footer styles */
+
+footer {
+    background-color: #003660;
+    /* border-top: 0;
+    margin-top: 0px;
+    padding-top: 35px;
+    padding-bottom: 36px;
+    bottom: -130px; */
+    position: relative;
+    text-align: left;
+    height: auto;
+    color: #ffffff !important;
+}
+
+.region-footer {
+    padding: 0 15px;
+}
+
+.field--name-field-blades {
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.field--name-field-blades .paragraph--type--column {
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .field--name-field-blades .paragraph--type--column {
+        height: auto !important;
+    }
+}
+
+.footer .ucsb-wordmark {
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.footer .ucsb-wordmark svg {
+    display: block;
+    height: auto;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.footer .contact-info {
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    background-color: #002b4c;
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    font-size: 1.2rem;
+    padding: 16px 0 48px 0;
+    width: 100%;
+}
+
+.footer-bottom div, .footer-bottom p, .footer-bottom a {
+    border-color: #fff;
+    color: #fff !important;
+}
+
+.footer-bottom span, .footer-bottom a.terms {
+    display: inline-block;
+    margin-right: 16px;
+}
