@@ -145,6 +145,10 @@ footer {
     padding-top: 20px;
 }
 
+.footer svg path {
+    fill: #fff;
+}
+
 .footer .contact-info {
     line-height: 1.5;
 }
