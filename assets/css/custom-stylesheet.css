@@ -116,6 +116,7 @@ footer {
 .field--name-field-blades .paragraph--type--column {
     box-sizing: border-box;
     z-index: 2;
+    padding-left: 0;
 }
 
 @media (max-width: 768px) {
