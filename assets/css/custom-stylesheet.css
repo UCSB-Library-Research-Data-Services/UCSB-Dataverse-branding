@@ -16,6 +16,12 @@ html, body {
     color: #fff !important;
 }
 
+/* Global styles to prevent footer overlap over the content */
+
+#content.container {
+    margin-bottom: 0;
+}
+
 /* Global styles changed to match the UCSB brand */
 
 a {
